@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none
+}
+
+
+
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+    /* border: 5px solid red; */
+}
+
+.nav_content {
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 0;
+    color: white;
+    align-items: center;
+    background: #000;
+
+
+}
+
+.ul__list {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.nav_links {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: Inter;
+
+    
+}
+
+.nav__list {
+    column-gap: 50px;
+    display: flex;
+}
+
+.nav__link {
+    display: flex;
+    column-gap: 20px;
+    text-align: center;
+    padding: 32px 0;
+
+}
+
+.nav_btn {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 15px;
+    border: 1px solid #FFF;
+    background: #000;
+    padding: 11px 38px;
+}
+
+.nav__text {
+    max-width: 100px;
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.nav__texts {
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+
+/* ________header */
+.header__content {
+    background: url(../Exem/img/party\ time\ 1.png) no-repeat center/cover;
+    height: 100vh;
+    /* width: 100%; */
+}
+
+.header__books {
+    width: 450px;
+    height: 360px;
+    flex-shrink: 0;
+    background: rgba(47, 40, 44, 0.50);
+    margin-left: 194px;
+    /* padding-top: 212px; */
+}
+
+.header__title {
+    color: white;
+    padding: 30px 0 12px 45px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.header__text {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 0 47px 45px;
+}
+
+.header__btn {
+    color: #FFF;
+    display: inline-flex;
+    height: 60px;
+    padding: 24px 97px 19px 25px;
+    align-items: center;
+    flex-shrink: 0;
+    background: #000;
+    margin-left: 15px;
+    border-radius: 12px;
+    transition: all 0.3s;
+}
+.header__btn:hover{
+background-color: rgb(0, 149, 255);
+
+}
+
+.birthiday__party {
+    background: #141414;
+    padding: 52px 90px;
+}
+
+.birthday__title {
+    color: #650A3F;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+.birthday__title:hover{
+    color: #FFF;
+}
+
+.birthday__text {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.birthday__box {
+    width: 350px;
+    height: 450px;
+    background: #000;
+}
+
+.birthday__titles {
+    color: white;
+    text-align: center;
+    padding: 21px 28px;
+}
+
+.birthday__texts {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.birthday__boxs {
+    display: flex;
+    column-gap: 50px;
+    margin: 55px 0 90px;
+}
+
+/* _____party */
+
+.party__content {
+    padding: 0 0 88px;
+    background: #141414;
+}
+
+.part__boxs {
+    display: flex;
+    column-gap: 70px;
+    justify-content: center;
+
+}
+
+.party__title {
+    color: #650A3F;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 61px;
+
+}
+.party__title:hover{
+color: #FFF;
+}
+.party__box {
+    width: 350px;
+    height: 500px;
+    background: #000;
+    flex-shrink: 0;
+
+
+}
+
+.party__titles {
+    color: #650A3F;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 30px 0 5px 30px;
+}
+
+.party__text {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+.party__texts {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 20px;
+    /* padding-left: 25px; */
+
+}
+
+.links {
+    border-radius: 5px;
+    border: 1px solid #931460;
+    display: inline-flex;
+    display: flex;
+    display: inline-block;
+    padding: 17px 31px 14px 31px;
+    justify-content: center;
+    align-items: center;
+    color: #931460;
+    margin: 40px 90px;
+    font-family: Inter;
+}
+
+.links:hover{
+    background: #931460;
+    color: #FFF;
+}
+/* -----------free */
+
+.free__content {
+    background: #141414;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 53px;
+}
+
+.fre__title {
+    color: white;
+    /* display: flex; */
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+
+
+
+}
+
+.free__btn {
+    border-radius: 5px;
+    border: 1px solid #931460;
+    /* display: inline-flex; */
+    padding: 16px 39px 16px 35px;
+    align-items: center;
+    color: #931460;
+    margin-left: 40px;
+    line-height: 20px;
+}
+.free__btn:hover{
+        background: #931460;
+        color: #FFF;
+    
+}
+span {
+    color: #650A3F;
+}
+
+
+/* ----lorem */
+.lorem__content {
+    background: #141414;
+}
+
+.lorem__text {
+    color: #FFF;
+}
+
+.lorem__mini {
+    background: #141414;
+}
+
+.lorem__content-mini {
+    width: 611px;
+    height: 249px;
+    background: #000;
+}
+
+.lorem__title {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 56px 0 20px 34px;
+    width: 476px;
+}
+
+.lorem__text {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 560px;
+    padding-left: 28px;
+}
+
+.lorem__mini {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer__content-boxs {
+    display: flex;
+    justify-content: space-between;
+    /* column-gap: 45px; */
+    /* padding: 0 45px; */
+    padding: 0 0 0 45px;
+}
+
+.footer__content {
+    padding: 43px 0;
+    background: #141414;
+}
+
+.footer__text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer__title {
+    color: white;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer__text {
+    color: white;
+}
+
+.footer__form {
+    display: flex;
+}
+
+.foter__btn {
+    border-radius: 3px;
+    border: 1px solid #FFF;
+    /* display: inline-flex; */
+    padding: 13px 80px 13px 22px;
+    align-items: center;
+    color: #808080;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer__btns {
+    border-radius: 3px;
+    border: 1px solid #931460;
+    display: inline-flex;
+    padding: 13px 22px;
+    color: #931460;
+    justify-content: center;
+    align-items: center;
+
+}
